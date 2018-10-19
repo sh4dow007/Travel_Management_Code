@@ -11,23 +11,26 @@
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
-    <IsWebBootstrapper>false</IsWebBootstrapper>
-    <PublishUrl>C:\Users\SH4DOW\Desktop\Final\</PublishUrl>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <PublishUrl>C:\Users\SH4DOW\Desktop\Final\New folder\</PublishUrl>
     <Install>true</Install>
-    <InstallFrom>Disk</InstallFrom>
-    <UpdateEnabled>false</UpdateEnabled>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
     <UpdateMode>Foreground</UpdateMode>
     <UpdateInterval>7</UpdateInterval>
     <UpdateIntervalUnits>Days</UpdateIntervalUnits>
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
+    <InstallUrl>https://raw.githubusercontent.com/sh4dow007/Travel_Management_System/master/</InstallUrl>
+    <UpdateUrl>https://raw.githubusercontent.com/sh4dow007/Travel_Management_System/master/</UpdateUrl>
     <ProductName>Akay Tours</ProductName>
     <PublisherName>Aditya Kaushal</PublisherName>
     <SuiteName>AkayToursPvtLtd</SuiteName>
+    <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
+    <WebPage>publish.htm</WebPage>
     <OpenBrowserOnPublish>false</OpenBrowserOnPublish>
-    <AutorunEnabled>true</AutorunEnabled>
-    <ApplicationRevision>10</ApplicationRevision>
+    <ApplicationRevision>12</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
@@ -53,10 +56,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestCertificateThumbprint>C6FC99AD9CCDB2D2FBB15B5EBE63B5EABA97DBD8</ManifestCertificateThumbprint>
+    <ManifestCertificateThumbprint>0FF0EA32AF2E8130F5C82B932E80537700AD5484</ManifestCertificateThumbprint>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestKeyFile>akay tours_1_TemporaryKey.pfx</ManifestKeyFile>
+    <ManifestKeyFile>akay tours_TemporaryKey.pfx</ManifestKeyFile>
   </PropertyGroup>
   <PropertyGroup>
     <GenerateManifests>true</GenerateManifests>
@@ -66,7 +69,7 @@
   </PropertyGroup>
   <PropertyGroup />
   <PropertyGroup>
-    <SignManifests>false</SignManifests>
+    <SignManifests>true</SignManifests>
   </PropertyGroup>
   <PropertyGroup>
     <ApplicationIcon>if_Flat1-21_2400108.ico</ApplicationIcon>
@@ -85,9 +88,7 @@
   <PropertyGroup />
   <PropertyGroup />
   <PropertyGroup />
-  <PropertyGroup>
-    <NoWin32Manifest>true</NoWin32Manifest>
-  </PropertyGroup>
+  <PropertyGroup />
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
